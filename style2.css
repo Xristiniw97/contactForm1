@@ -1,0 +1,148 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100;
+}
+
+body{
+  background: url(pool.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  width: 60%;
+  margin: 70px auto;
+}
+
+.container p{
+  margin-top:15px;
+  margin-bottom:35px;
+  color: #fff;
+  text-align: center;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom:15px;
+  color: #fff;
+}
+
+.container hr{
+
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.contact-box{
+  background: #fff;
+  display: flex;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-right{
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #fff
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+}
+
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+
+.contact-left h3{
+  font-weight: 600;
+  color: #1c00b5;
+  margin-bottom: 50px;
+}
+
+.contact-right h3{
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+button{
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  float: right;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+tr td:first-child{
+  padding-right: 40px;
+}
+
+tr td{
+  padding-top: 40px;
+}
+
+#socialIcons{
+  margin-top: 100px;
+  text-align: center;
+}
+
+#socialIcons li{
+
+  opacity: 0.5;
+  font-size: 30px;
+  display: inline;
+  padding-right: 50px;
+  margin-top: 50px;
+  color: #fff;
+  list-style: none;
+}
+
+#socialIcons li:hover{
+  opacity:1;
+}
